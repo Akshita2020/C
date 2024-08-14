@@ -1,0 +1,14 @@
+#include <stdio.h>
+//sum of all the even number from 1 to 100
+int main() {
+    int sum= 0;
+    for (int i=2; i <=100 ; i += 2) {
+        
+        sum += i;
+    }
+    
+    printf(" enter the sum of all the even numbers from 1 to 100: %d \n", sum);
+    
+    
+    return 0;
+}

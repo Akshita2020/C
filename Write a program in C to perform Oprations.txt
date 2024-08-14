@@ -1,0 +1,64 @@
+#include <stdio.h>
+
+int main()
+{
+    int age= 22;
+    printf("Please enter the addition of number %d \n", age+age);
+    printf("Please enter the subtraction of number %d \n", age-age );
+     printf("Please enter the multiplication of number %d \n", age*age);
+     printf("Please enter the divide of number %d \n", age/age );
+    
+    float salary= 10000.10;
+    printf("Please enter the addition of number %f \n", salary+salary );
+    printf("Please enter the subtraction of number %f \n", salary-salary );
+    printf("Please enter the multiplication of number %f \n", salary*salary );
+    printf("Please enter the divide of number %f \n", salary/salary );
+    
+    char symbol1= 'A';
+    printf("Please enter the first symbol %c \n",symbol1);
+    char symbol2= '2';
+    printf(" please enter the second symbol %c \n",symbol2);
+    char symbol3= '#';
+    printf(" please enter the third symbol %c \n",symbol3);
+    char symbol4= '@';
+    printf("please enter the fourth symbol %c \n", symbol4);
+    
+   long number= 54546121454;
+    printf("Please enter the addition of number %li \n", number+number);
+    printf("Please enter the subtraction of number %li \n", number-number);
+     printf("Please enter the multiplication of number %li \n", number*number);
+     printf("Please enter the divide of number %li \n", number/number );
+     
+     double decimal= 45654.124;
+     printf("Please enter the addition of number %lf \n", decimal+decimal );
+    printf("Please enter the subtraction of number %lf \n", decimal-decimal );
+    printf("Please enter the multiplication of number %lf \n", decimal*decimal );
+    printf("Please enter the divide of number %lf \n", decimal/decimal );
+    
+    int sealevel1= 10, sealevel2= 11;
+    printf("please enter the addtion of sealevels %d \n", sealevel1+sealevel2);
+    printf("please enter the subtraction of sealevels %d \n", sealevel1-sealevel2);
+     printf("please enter the multiplication of sealevels %d \n", sealevel1*sealevel2);
+     printf("please enter the divide of sealevels %d \n", sealevel1/sealevel2);
+     
+     float weight1= 50, weight2= 55;
+     printf("please enter the addition of weights %f \n", weight1+weight2);
+     printf("please enter the subtraction of weights %f \n", weight1-weight2);
+     printf("please enter the multiplication of weights %f \n", weight1*weight2);
+     printf("please enter the divide of weights %f \n", weight1/weight2);
+     
+     double height1= 55646.55, height2=5265.55;
+    printf("please enter the addition of heights %lf \n", height1+height2);
+    printf("please enter the subtraction of heights %lf \n",height1-height2);
+    printf("please enter the multiplication of heights %lf \n",height1*height2);
+     printf("please enter the divide of heights %lf \n",height1/height2);
+     
+     long mobileno1= 4698667466, mobileno2=4156465114;
+     printf("please enter the addition of mobile numbers %li \n", mobileno1+mobileno2);
+     printf("please enter the subtraction of mobile numbers %li \n", mobileno1-mobileno2);
+     printf("please enter the multiplication of mobile numbers %li \n", mobileno1*mobileno2);
+     printf("please enter the divide of mobile numbers %li \n", mobileno1/mobileno2);
+     
+
+    return 0;
+}

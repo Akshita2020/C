@@ -1,0 +1,42 @@
+#include <stdio.h>
+// sum of all the variables
+int main() {
+
+// Declaration of variables 
+ int age1= 11, age2= 11;
+
+// using printf to showing the results
+ printf(" enter the sum of numbers %d \n", age1+age2);
+
+ //Declaration of variables 
+ float salary1 = 50000.50, salary2= 25000.25;
+
+ //using printf to showing the results
+ printf(" enter the sum of salaries %f \n", salary1+salary2);
+
+//Declaration of variables 
+char symbol1= 'A', symbol2= 'A';
+
+ //using printf to showing the results
+ printf("enter the sum of symbols %c \n", symbol1+symbol2); 
+
+ //Declaration of variables 
+ long mob_no1= 1548454864, mob_no2= 454866546;
+
+//using printf to showing the results
+printf(" enter the sum of mobile numbers %li \n", mob_no1+mob_no2);
+
+// Declaration of variables 
+ double salary3= 1000000.500, salary4= 5000000.500;
+
+// using printf to showing the results
+ printf("enter the summ of salaries %lf \n", salary3+salary4);
+
+int num1, num2,result;
+printf("enter the two numbers of sum");
+scanf("%d%d", &num1,&num2);
+result=num1+num2;
+printf("%d",result);
+
+return 0;
+}

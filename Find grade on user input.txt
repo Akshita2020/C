@@ -1,0 +1,37 @@
+//Find grade on user input
+#include <stdio.h>
+
+int main() {
+   
+   float percentage;
+   printf("Enter your percentage to check the grade");
+   scanf("%f", &percentage);
+   
+   if(percentage>=0.00 && percentage<=33.00){
+       printf(" you are fail-- Grade-F");
+   }
+   else if(percentage>=33.00 && percentage<=50.00) {
+       printf("Grade-E \n");
+   }
+    else if(percentage>=50.00 && percentage<=60.00) {
+           printf("Grade-D \n");
+   }
+    else if(percentage>=60.00 && percentage<=70.00) {
+           printf("Grade-C \n");
+   }
+    else if(percentage>=70.00 && percentage<=80.00) {
+           printf("Grade-B \n");
+    }
+        else if(percentage>=80.00 && percentage<=90.00) {
+           printf("Grade-B \n");
+    }
+        else if(percentage>=90.00 && percentage<=100.00) {
+           printf("Grade-A \n");
+    }
+    
+else {
+    printf("Invalid input \n");
+}
+       
+    return 0;
+}
